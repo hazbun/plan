@@ -46,6 +46,7 @@ jobs:
       run: |
         python --version
         python main.py
+        python planscript.py
       env:
         GRADESCOPE_USER: ${{ secrets.GRADESCOPE_USER }}
         GRADESCOPE_PASSWORD: ${{ secrets.GRADESCOPE_PASSWORD }}
